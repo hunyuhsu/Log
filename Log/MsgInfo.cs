@@ -1,12 +1,12 @@
-﻿using Log.Enum;
-using System;
+﻿using System;
+using Tool.Log.Enum;
 
-namespace Log
+namespace Tool.Log
 {
     public class MsgInfo
     {
         public string Message { get; set; }
-        public MsgType MsgType { get; private set; }
+        public Enum.MsgType MsgType { get; private set; }
         public ConsoleColor ConsoleColor { get; private set; }
 
         public MsgInfo(MsgType msgType, string msg)

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Log.Enum
+namespace Tool.Log.Enum
 {
     [Flags]
     public enum MsgType

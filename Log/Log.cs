@@ -1,9 +1,9 @@
-﻿using Log.Enum;
-using System;
+﻿using System;
 using System.IO;
 using System.Text;
+using Tool.Log.Enum;
 
-namespace Log
+namespace Tool.Log
 {
     public class Log
     {
